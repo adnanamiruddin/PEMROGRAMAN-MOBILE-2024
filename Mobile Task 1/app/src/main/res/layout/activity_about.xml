@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="444dp"
+        android:layout_height="1021dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.495"
+        app:srcCompat="@drawable/background" />
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.2"
+        android:text="ABOUT ME"
+        android:textColor="#00FFAE"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036" />
+
+    <ImageView
+        android:id="@+id/aboutPhoto"
+        android:layout_width="320dp"
+        android:layout_height="380dp"
+        android:layout_marginBottom="412dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/about" />
+
+    <TextView
+        android:id="@+id/aboutTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.1"
+        android:text="Enthusiastic JavaScript Dev"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutPhoto" />
+
+    <TextView
+        android:id="@+id/aboutParagraph1"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="fill"
+        android:justificationMode="inter_word"
+        android:lineHeight="20dp"
+        android:text="    My name is Muh. Adnan Putra Amiruddin and people always call me Adnan. Now I am student at Hasanuddin University, Faculty of Math and Science, Information System. During the college, I am someone who has a high seriousness of learning. When I was in Senior High School, I was a member of OSIS who is the head of “Budi Pekerti Luhur” division. So that I already have organizational experience and communication skills."
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutTitle" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="fill"
+        android:justificationMode="inter_word"
+        android:lineHeight="20dp"
+        android:text="    I am the person who always liked coding and other things about information and technology. I always help my friend to finish their task especially coding subject, I help by explain my program to them step by step until they understand. I have an interest in coding, web, programming, and anything about information, system and technology."
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutParagraph1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
