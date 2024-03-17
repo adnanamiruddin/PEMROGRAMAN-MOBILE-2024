@@ -88,4 +88,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/aboutParagraph1" />
 
+    <Button
+        android:id="@+id/contact"
+        android:layout_width="291dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="#00FFAE"
+        android:fontFamily="monospace"
+        android:onClick="toContactMePage"
+        android:text="CONTACT ME"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
