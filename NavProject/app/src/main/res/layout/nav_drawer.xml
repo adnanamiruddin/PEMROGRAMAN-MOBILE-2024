@@ -9,28 +9,30 @@
         android:layout_width="match_parent"
         android:layout_height="176dp"
         android:background="@drawable/header_background"
-        android:gravity="center"
+        android:gravity="bottom"
         android:orientation="vertical"
         android:padding="16dp"
         android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:src="@drawable/logo_noxpark" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Android Knowledge"
+            android:layout_marginTop="5dp"
+            android:text="Muh. Adnan Putra Amiruddin"
             android:textColor="@color/white"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:text="contact@androidknowledge.com"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:text="adnan.amiruddin34@gmail.com"
             android:textColor="@color/white"
             android:textSize="14dp" />
 
